@@ -1,5 +1,3 @@
-#include "common.h"
-
 struct ListNode {
     int val;
     ListNode *next;

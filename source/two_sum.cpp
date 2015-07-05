@@ -1,10 +1,3 @@
-#include "common.h"
-
-/*
- *
- *
- */
-
 class Solution {
 public:
 	vector<int> twoSum(vector<int>& nums, int target) {
@@ -53,14 +46,3 @@ public:
 		return result;
 	}
 };
-
-int main()
-{
-	vector<int> vec{ 2, 7, 11, 5 };
-	Solution s;
-	vector<int> result = s.twoSum(vec, 9);
-
-	cout << result[0] << " "<< result[1] << endl;
-
-	return 0;
-}
